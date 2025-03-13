@@ -4,7 +4,7 @@
 
 ### Basic Usage
 
-1. Extract the original ImageNet_train.tar, you would get 1000 n_********.tar files. Rename the parent folder with the name "train".
+1. Extract the original ImageNet_train.tar (would get 1000 n_********.tar files), rename the parent folder with the name "train".
    
 2. Move the train_extract_to_folder.sh into the "train" folder, execute it.
 
