@@ -24,7 +24,7 @@ imagenet\
 │   │   └── ...\
 │   └── ...\
 └── val\
-&nbsp;&nbsp;├── class1\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class1\
 &nbsp;&nbsp;│   ├── img4.jpeg\
 &nbsp;&nbsp;│   ├── img5.jpeg\
     │   └── ...\
