@@ -12,23 +12,24 @@
    
 4. Move the val_move_into_folder.sh into the "val" folder, and execute it as well.
 
-### The final file structure should be exactly like this:\
+### The final file structure should be exactly like this:
+
 imagenet\
 ├── train\
-│&emsp;├── class1\
-│   │   ├── img1.jpeg\
-│   │   ├── img2.jpeg\
-│   │   └── ...\
-│   ├── class2\
-│   │   ├── img3.jpeg\
-│   │   └── ...\
-│   └── ...\
+│&emsp;&emsp;├── class1\
+│&emsp;&emsp;│&emsp;&emsp;├── img1.jpeg\
+│&emsp;&emsp;│&emsp;&emsp;├── img2.jpeg\
+│&emsp;&emsp;│&emsp;&emsp;└── ...\
+│&emsp;&emsp;├── class2\
+│&emsp;&emsp;│&emsp;&emsp;├── img3.jpeg\
+│&emsp;&emsp;│&emsp;&emsp;└── ...\
+│&emsp;&emsp;└── ...\
 └── val\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class1\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;├── img4.jpeg\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img5.jpeg\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── ...\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;├── img5.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;└── ...\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class2\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img6.jpeg\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── ...\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;├── img6.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;└── ...\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...
