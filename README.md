@@ -2,19 +2,20 @@
 
 ### Utility files to the ImageNet1k dataset.
 
-1. Extract the original ImageNet_train.tar, should get 1000 n_********.tar files. Rename the parent folder with the name "train".
+1. Extract the original ImageNet_train.tar, you would get 1000 n_********.tar files. Rename the parent folder with the name "train".
    
-2. Move train_extract_to_folder.sh into the "train" folder, execute the .sh file.
+2. Move the train_extract_to_folder.sh into the "train" folder, execute it.
 
-3. Extract the original ImageNet_val.tar, rename the folder "val"
-4. Move val_move_into_folder.sh into the "val" folder, and execute the .sh file.
+3. Extract the original ImageNet_val.tar, rename the folder with the name "val".
+   
+4. Move the val_move_into_folder.sh into the "val" folder, and execute it as well.
 
-5. In the end, you should have the structure like this:
-imagenet
-├── train__
-│   ├── class1__
-│   │   ├── img1.jpeg__
-│   │   ├── img2.jpeg__
+5. In the end, you should have the file structure like this:\
+imagenet\
+├── train\
+│   ├── class1\
+│   │   ├── img1.jpeg\
+│   │   ├── img2.jpeg\
 │   │   └── ...
 │   ├── class2
 │   │   ├── img3.jpeg
