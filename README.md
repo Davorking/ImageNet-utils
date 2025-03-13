@@ -15,7 +15,7 @@
 ### The final file structure should be exactly like this:\
 imagenet\
 ├── train\
-│   ├── class1\
+│&emsp;├── class1\
 │   │   ├── img1.jpeg\
 │   │   ├── img2.jpeg\
 │   │   └── ...\
@@ -25,7 +25,7 @@ imagenet\
 │   └── ...\
 └── val\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class1\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img4.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&emsp;&emsp;├── img4.jpeg\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img5.jpeg\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── ...\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class2\
