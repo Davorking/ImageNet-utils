@@ -24,11 +24,11 @@ imagenet\
 │   │   └── ...\
 │   └── ...\
 └── val\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class1\
-&nbsp;&nbsp;│   ├── img4.jpeg\
-&nbsp;&nbsp;│   ├── img5.jpeg\
-    │   └── ...\
-    ├── class2\
-    │   ├── img6.jpeg\
-    │   └── ...\
-    └── ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class1\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img4.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img5.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── ...\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── class2\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── img6.jpeg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── ...\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...
